@@ -42,7 +42,8 @@ pytorch, python, javascript, fastapi, google collab, GCP, github
 **Progress Summary:**
 
 - Developed a basic web application using FastAPI and JavaScript to collect typing data from users.
-- https://typingpod.l5.fyi/ - deployed web app for data collection.
+- https://typepod.l5.fyi/ - deployed web app for data collection.
+- https://github.com/IvanAnishchuk/TypePod - source for that.
 - Explored various machine learning models, including LSTM and SVM, for analyzing typing patterns.
 
 ### Week 2 (ends Nov 7)
