@@ -2,6 +2,11 @@
 
 # Cryptomataz - ARG25 Project
 
+## Team
+- Team Name: Trueno
+- GitHub Handles: https://github.com/Misash & https://github.com/iBrainiac
+- Devfolio Handles: aronac & hazardkrypto
+
 ## Project Overview
 
 Cryptomataz is a decentralized agent economy system that combines AI-powered content generation with on-chain payment protocols. The project consists of three main components:
@@ -16,6 +21,13 @@ Cryptomataz is a decentralized agent economy system that combines AI-powered con
 - Implement on-chain payment verification and transaction tracking
 - Create a viral content generation system powered by specialized AI agents
 - Enable seamless crypto payments for AI services on Arbitrum
+
+## Tech Stack
+
+- **Backend**: Python (FastAPI), TypeScript (Node.js), Solidity (Stylus)
+- **Blockchain**: Arbitrum Stylus 
+- **AI**: OpenAI, LangGraph
+- **Payment Protocol**: x402
 
 ## Weekly Progress
 
@@ -51,12 +63,6 @@ cryptomataz/
 https://github.com/iBrainiac
 https://github.com/Misash
 
-## Tech Stack
-
-- **Backend**: Python (FastAPI), TypeScript (Node.js), Rust (Stylus)
-- **Blockchain**: Arbitrum Stylus
-- **AI**: OpenAI, LangGraph
-- **Payment Protocol**: x402
 
 ---
 
