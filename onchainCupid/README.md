@@ -1,95 +1,71 @@
-# ARG25 Project Submission Template
+# 🌿 Invisible Garden — ARG25 Projects
 
-Welcome to Agentic Finance of Arbitrum
-
-Each participant or team will maintain this README throughout the program.  
-You’ll update your progress weekly **in the same PR**, so mentors and reviewers can track your journey end-to-end.
-
-
-
-##  Project Title
-Cryptomataz
+# Cryptomataz - ARG25 Project
 
 ## Team
 - Team Name: Trueno
 - GitHub Handles: https://github.com/Misash & https://github.com/iBrainiac
 - Devfolio Handles: aronac & hazardkrypto
 
-## Project Description
-We’re building an agentic system on Arbitrum that automates social media posts and compensates agents onchain. By leveraging Arbitrum Stylus, we ensure faster and more efficient payments. Agents with various roles, such as marketing and growth, will receive their rewards directly on-chain, streamlining the entire process, an agentic finance protocol built on Arbitrum Stylus that automates marketing and growth tasks through AI-powered social agents. Each agent contributes to community expansion, engagement, and visibility — and gets compensated instantly with on-chain payments. The project showcases how agentic automation can create sustainable growth ecosystems across decentralized networks.
+## Project Overview
 
+Cryptomataz is a decentralized agent economy system that combines AI-powered content generation with on-chain payment protocols. The project consists of three main components:
 
+1. **Core Agents** - Multi-agent system for viral Twitter content generation using LangGraph
+2. **x402-Arbitrum** - Payment protocol implementation for Arbitrum Sepolia with autonomous trading agents
+3. **Stylus Contracts** - Smart contracts for agent payments
 
+## Goals
 
-
-
+- Build an autonomous agent economy where AI agents can trade credits and services
+- Implement on-chain payment verification and transaction tracking
+- Create a viral content generation system powered by specialized AI agents
+- Enable seamless crypto payments for AI services on Arbitrum
 
 ## Tech Stack
-Arbitrum Stylus 
-Rust
-ReactJs
-Fast Api
-Python
-Langgraph
 
-
-## Objectives
-TO build an offchain  agentic finance services 
-Implement a seamless on-chain payment system for social agents.
-
-Ensure fast and cost-effective transactions using Arbitrum Stylus.
-
-Create a scalable model for compensating agents based on performance.
-
-
+- **Backend**: Python (FastAPI), TypeScript (Node.js), Solidity (Stylus)
+- **Blockchain**: Arbitrum Stylus 
+- **AI**: OpenAI, LangGraph
+- **Payment Protocol**: x402
 
 ## Weekly Progress
 
-### Week 1 (ends Oct 31)
-Brainstorming a possible project idea 
+### Week 1 (Oct 24 - Oct 31)
+- ✅ Set up x402 payment protocol for Arbitrum Sepolia
+- ✅ Implemented autonomous trading agents (Curator, Researcher, Supervisor)
+- ✅ Added transaction event emission and verification system
+- ✅ Created trade verification system for on-chain validation
+
+### Week 2 (Nov 1 - Nov 7)
+- ✅ Built frontend interface for agent network
+- ✅ Tested payment protocols and transaction flows
+- ✅ Deployed Stylus smart contracts to Arbitrum Sepolia
+
+### Week 3 (Nov 8 - Nov 14)
+- 🔄 Testing payment protocol and integration ongoing
+- 🔄 Integrating UI, payment system, and smart contract ABI
+- 📋 Final deliverable & wrap-up
+
+## Project Structure
+
+```
+cryptomataz/
+├── core-agents/ # multi-agent content generation system
+├── x402-arbitrum/  #payment  protocol & agent network
+└── stylus-contracts/ # Rust smart contracts for payment
+```
+
+## Links
+
+- **Repository**: [cryptomataz](https://github.com/Misash/cryptomataz)
+- **Team**: 
+https://github.com/iBrainiac
+https://github.com/Misash
 
 
-**Progress Summary:**  
+---
 
-Came up with the  agentic finance services 
-
-### Week 2 (ends Nov 7)
-Set up the project repository.
-
-Develop initial smart contracts on Arbitrum Stylus.
-
-Create basic agent roles and payment logic.
-PROGRESS
-Repository initialized and smart contracts deployed on testnet.
-
-Basic agent roles defined and payment structure outlined.
-
-### 🗓️ Week 3 (ends Nov 14)
-**Goals:**  
-
-Integrate front-end with smart contracts.
-
-Test the payment flow and agent interactions.
-
-Refine the payment logic based on test results.
-
-
-**Progress Summary:**  
-
-Front-end prototype connected to the smart contracts.
-
-Initial payment tests completed, confirming the functionality.
-
-## Final Wrap-Up
-_After Week 3, summarize your final state: deliverables, repo links, and outcomes._
-
-- **Main Repository Link:**  
-- **Demo / Deployment Link (if any):**  
-- **Slides / Presentation (if any):**
-
-
-
-
-
-
+**Status**: Active Development  
+**Last Updated**: Week 3
 
