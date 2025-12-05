@@ -1,40 +1,84 @@
-🌿 Invisible Garden — ARG25 Projects
-Cryptomataz - ARG25 Project
-Project Overview
-Cryptomataz is a decentralized agent economy system that combines AI-powered content generation with on-chain payment protocols. The project consists of three main components:
+# 🌿 Invisible Garden — ARG25 Projects
 
-Core Agents - Multi-agent system for viral Twitter content generation using LangGraph
-x402-Arbitrum - Payment protocol implementation for Arbitrum Sepolia with autonomous trading agents
-Stylus Contracts - Smart contracts for agent payments
-Goals
-Build an autonomous agent economy where AI agents can trade credits and services
-Implement on-chain payment verification and transaction tracking
-Create a viral content generation system powered by specialized AI agents
-Enable seamless crypto payments for AI services on Arbitrum
-Weekly Progress
-Week 1 (Oct 24 - Oct 31)
-✅ Set up x402 payment protocol for Arbitrum Sepolia
-✅ Implemented autonomous trading agents (Curator, Researcher, Supervisor)
-✅ Added transaction event emission and verification system
-✅ Created trade verification system for on-chain validation
-Week 2 (Nov 1 - Nov 7)
-✅ Built frontend interface for agent network
-✅ Tested payment protocols and transaction flows
-✅ Deployed Stylus smart contracts to Arbitrum Sepolia
-Week 3 (Nov 8 - Nov 14)
-🔄 Testing payment protocol and integration ongoing
-🔄 Integrating UI, payment system, and smart contract ABI
-📋 Final deliverable & wrap-up
-Project Structure
-cryptomataz/
-├── core-agents/ # multi-agent content generation system
-├── x402-arbitrum/  #payment  protocol & agent network
-└── stylus-contracts/ # Rust smart contracts for payment
-Links
-Repository: cryptomataz
-Team: https://github.com/iBrainiac https://github.com/Misash
-Tech Stack
-Backend: Python (FastAPI), TypeScript (Node.js), Rust (Stylus)
-Blockchain: Arbitrum Stylus
-AI: OpenAI, LangGraph
-Payment Protocol: x402
+Welcome to **Invisible Garden-ARG25**.  
+This repository hosts all project submissions for the ARG25 edition.
+
+Each participant (or team) documents their project journey here, updating their progress **weekly** through a single, evolving Pull Request (PR).
+
+
+## Program Overview
+
+**Duration:** 3 Weeks  
+**Timeline:**
+- **Week 1:** ends **October 31**
+- **Week 2:** ends **November 7**
+- **Week 3:** ends **November 14**
+
+Each week, participants update their project README with progress and goals, culminating in a final wrap-up at the end of Week 3.
+
+
+
+
+##  Weekly Progress Workflow
+
+1. **Fork** this repository to your account.
+2. Create a branch named after your project:
+
+   `git checkout -b teamname-projectname`
+
+3. Add your folder with the `project-name/`.
+- Add a `README.md` using the `README_template.md` provided.
+- Optionally create an `assets/` folder for diagrams, screenshots, or code snippets.
+4. Commit your README (based on the template) and push to your fork.
+5. **Raise a PR** to the main repo and keep updating the same PR each week – update your branch with weekly commits.
+
+##  Folder Structure
+
+```
+arg25-projects/
+|
+├── README.md # You are here (program overview)
+├── README_template.md # Base template for your project README
+|
+├── your-project/
+|   |   ├── README.md # Your project progress log
+|   |   └── assets/ # (optional) diagrams, screenshots, etc.
+|   └── ...
+|
+└── 
+```
+
+
+
+## 🗓️ Weekly Update Schedule
+
+| Week | Dates | Deliverable |
+|-------|--------|--------------|
+| Week 1 | Oct 24 → Oct 31 | Initial setup & first progress update |
+| Week 2 | Nov 1 → Nov 7 | Mid-program update |
+| Week 3 | Nov 8 → Nov 14 | Final deliverable & wrap-up |
+
+
+
+## Submission Guidelines
+
+- Maintain **a single PR** through the entire program.
+- Commit your weekly progress by **Friday EOD** of each week.
+- Ensure your README always includes:
+  - Project overview & goals
+  - Weekly progress summaries
+  - Updated links to repos, demos, or presentations
+
+
+## Community & Support
+
+Join the Invisible Garden community for feedback and updates:
+- Website: [https://invisible.garden](https://invisible.garden)
+- Twitter: [@invisiblgarden](https://twitter.com/invisiblgarden)
+
+
+
+
+
+Happy Building 🌿  
+**– The Invisible Garden Team**

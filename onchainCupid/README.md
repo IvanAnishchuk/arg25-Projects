@@ -1,84 +1,95 @@
-# 🌿 Invisible Garden — ARG25 Projects
+# ARG25 Project Submission Template
 
-Welcome to **Invisible Garden-ARG25**.  
-This repository hosts all project submissions for the ARG25 edition.
+Welcome to Agentic Finance of Arbitrum
 
-Each participant (or team) documents their project journey here, updating their progress **weekly** through a single, evolving Pull Request (PR).
-
-
-## Program Overview
-
-**Duration:** 3 Weeks  
-**Timeline:**
-- **Week 1:** ends **October 31**
-- **Week 2:** ends **November 7**
-- **Week 3:** ends **November 14**
-
-Each week, participants update their project README with progress and goals, culminating in a final wrap-up at the end of Week 3.
+Each participant or team will maintain this README throughout the program.  
+You’ll update your progress weekly **in the same PR**, so mentors and reviewers can track your journey end-to-end.
 
 
 
+##  Project Title
+Cryptomataz
 
-##  Weekly Progress Workflow
+## Team
+- Team Name: Trueno
+- GitHub Handles: https://github.com/Misash & https://github.com/iBrainiac
+- Devfolio Handles: aronac & hazardkrypto
 
-1. **Fork** this repository to your account.
-2. Create a branch named after your project:
-
-   `git checkout -b teamname-projectname`
-
-3. Add your folder with the `project-name/`.
-- Add a `README.md` using the `README_template.md` provided.
-- Optionally create an `assets/` folder for diagrams, screenshots, or code snippets.
-4. Commit your README (based on the template) and push to your fork.
-5. **Raise a PR** to the main repo and keep updating the same PR each week – update your branch with weekly commits.
-
-##  Folder Structure
-
-```
-arg25-projects/
-|
-├── README.md # You are here (program overview)
-├── README_template.md # Base template for your project README
-|
-├── your-project/
-|   |   ├── README.md # Your project progress log
-|   |   └── assets/ # (optional) diagrams, screenshots, etc.
-|   └── ...
-|
-└── 
-```
-
-
-
-## 🗓️ Weekly Update Schedule
-
-| Week | Dates | Deliverable |
-|-------|--------|--------------|
-| Week 1 | Oct 24 → Oct 31 | Initial setup & first progress update |
-| Week 2 | Nov 1 → Nov 7 | Mid-program update |
-| Week 3 | Nov 8 → Nov 14 | Final deliverable & wrap-up |
-
-
-
-## Submission Guidelines
-
-- Maintain **a single PR** through the entire program.
-- Commit your weekly progress by **Friday EOD** of each week.
-- Ensure your README always includes:
-  - Project overview & goals
-  - Weekly progress summaries
-  - Updated links to repos, demos, or presentations
-
-
-## Community & Support
-
-Join the Invisible Garden community for feedback and updates:
-- Website: [https://invisible.garden](https://invisible.garden)
-- Twitter: [@invisiblgarden](https://twitter.com/invisiblgarden)
+## Project Description
+We’re building an agentic system on Arbitrum that automates social media posts and compensates agents onchain. By leveraging Arbitrum Stylus, we ensure faster and more efficient payments. Agents with various roles, such as marketing and growth, will receive their rewards directly on-chain, streamlining the entire process, an agentic finance protocol built on Arbitrum Stylus that automates marketing and growth tasks through AI-powered social agents. Each agent contributes to community expansion, engagement, and visibility — and gets compensated instantly with on-chain payments. The project showcases how agentic automation can create sustainable growth ecosystems across decentralized networks.
 
 
 
 
 
-Happy Building 🌿  
-**– The Invisible Garden Team**
+
+
+## Tech Stack
+Arbitrum Stylus 
+Rust
+ReactJs
+Fast Api
+Python
+Langgraph
+
+
+## Objectives
+TO build an offchain  agentic finance services 
+Implement a seamless on-chain payment system for social agents.
+
+Ensure fast and cost-effective transactions using Arbitrum Stylus.
+
+Create a scalable model for compensating agents based on performance.
+
+
+
+## Weekly Progress
+
+### Week 1 (ends Oct 31)
+Brainstorming a possible project idea 
+
+
+**Progress Summary:**  
+
+Came up with the  agentic finance services 
+
+### Week 2 (ends Nov 7)
+Set up the project repository.
+
+Develop initial smart contracts on Arbitrum Stylus.
+
+Create basic agent roles and payment logic.
+PROGRESS
+Repository initialized and smart contracts deployed on testnet.
+
+Basic agent roles defined and payment structure outlined.
+
+### 🗓️ Week 3 (ends Nov 14)
+**Goals:**  
+
+Integrate front-end with smart contracts.
+
+Test the payment flow and agent interactions.
+
+Refine the payment logic based on test results.
+
+
+**Progress Summary:**  
+
+Front-end prototype connected to the smart contracts.
+
+Initial payment tests completed, confirming the functionality.
+
+## Final Wrap-Up
+_After Week 3, summarize your final state: deliverables, repo links, and outcomes._
+
+- **Main Repository Link:**  
+- **Demo / Deployment Link (if any):**  
+- **Slides / Presentation (if any):**
+
+
+
+
+
+
+
